@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.header {
+  border-bottom: 2px solid black;
+
+  & p {
+    margin: 0;
+  }
+
+  &__inner {
+    width: 80%;
+    margin: 0 auto;
+
+    & .title {
+      text-align: center;
+      font-size: 1.2em;
+      & > a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+
+    & .menu {
+      margin-right: 0;
+      text-align: right;
+    }
+  }
+}
+
+.inputarea {
+    width: 80%;
+    margin: 0 auto;
+
+    & .input {
+        margin-bottom: 0;
+    }
+    
+    & .error {
+        margin-top: 0;
+        color: red;
+    }
+
+}

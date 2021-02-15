@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.main .h2 {
+  text-align: center;
+}
+
+.main .table-area {
+  width: 40%;
+  margin: 0 auto 50px auto;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+}
+
+.main .table-area table {
+  border: 1px solid black;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.main .table-area table td {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=list.css.map */

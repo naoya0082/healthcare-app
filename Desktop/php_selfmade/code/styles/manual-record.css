@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.header {
+  border-bottom: 2px solid black;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header__inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header__inner .title {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.header__inner .title > a {
+  color: black;
+  text-decoration: none;
+}
+
+.header__inner .menu {
+  margin-right: 0;
+  text-align: right;
+}
+
+.inputarea {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inputarea .input {
+  margin-bottom: 0;
+}
+
+.inputarea .error {
+  margin-top: 0;
+  color: red;
+}
+/*# sourceMappingURL=manual-record.css.map */

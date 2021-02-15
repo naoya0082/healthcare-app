@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.main {
+  & .h2 {
+    text-align: center;
+  }
+  & .check-area {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #edf6e6;
+    border-radius: 30px;
+    border: 1px solid #8ab73d;
+
+    & .menu {
+      font-weight: 600;
+    }
+
+    & .form-area {
+      text-align: center;
+      width: 80%;
+      margin: 10px auto;
+    }
+
+  }
+
+
+}
+

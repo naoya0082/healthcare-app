@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.main .h2 {
+  text-align: center;
+}
+
+.main .record-area {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+}
+
+.main .record-area .form-area {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.main .record-area .form-area table {
+  text-align: center;
+}
+
+.main .record-area .btn {
+  text-align: center;
+}
+/*# sourceMappingURL=record.css.map */

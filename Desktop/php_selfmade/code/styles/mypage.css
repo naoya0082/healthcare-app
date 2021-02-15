@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+}
+
+.header {
+  border-bottom: 2px solid black;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header__inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header__inner .title {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.header__inner .title > a {
+  color: black;
+  text-decoration: none;
+}
+
+.header__inner .menu {
+  margin-right: 0;
+  text-align: right;
+}
+
+.main__inner {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main__inner .message .comment > span {
+  color: red;
+  font-weight: 600;
+}
+
+.main__inner .record-area {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+  padding-bottom: 20px;
+}
+
+.main__inner .record-area .goal-message {
+  margin: 20px auto;
+  padding: 10px;
+  width: 55%;
+  border: 1px solid #8ab73d;
+  background-color: white;
+}
+
+.main__inner .today-record {
+  padding-top: 20px;
+}
+
+.main__inner .today-record .table-area {
+  text-align: center;
+}
+
+.main__inner .today-record .table-area .table {
+  background-color: white;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.main__inner .today-record .table-area .table .total {
+  color: red;
+  font-weight: 600;
+}
+
+.main__inner .weight-area {
+  background-color: white;
+  border: 2px solid black;
+  width: 20%;
+  margin: 20px auto;
+}
+
+.main__inner .weight-area .text {
+  display: inline;
+  font-weight: 600;
+}
+
+.main__inner .weight-area .text > p {
+  display: inline;
+}
+
+.main__inner .weight-area .weight {
+  color: red;
+  font-size: 30px;
+}
+
+.main__inner .btn-area {
+  width: 600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__inner .btn-area .btn {
+  display: inline-block;
+  border-radius: 10px;
+  width: 250px;
+  padding-top: 20px;
+  margin: 5px;
+}
+
+.main__inner .btn-area .btn a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  padding-top: 20px;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #32cd32;
+  -webkit-box-shadow: 0px 5px #008000;
+          box-shadow: 0px 5px #008000;
+}
+
+.main__inner .btn-area .btn a:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main__inner .btn-area .list {
+  display: inline-block;
+  border-radius: 10px;
+  padding-top: 20px;
+  width: 85%;
+}
+
+.main__inner .btn-area .list a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  padding-top: 20px;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: orange;
+  -webkit-box-shadow: 0px 5px #ff8c00;
+          box-shadow: 0px 5px #ff8c00;
+}
+
+.main__inner .btn-area .list a:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.create-profile {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+/*# sourceMappingURL=mypage.css.map */

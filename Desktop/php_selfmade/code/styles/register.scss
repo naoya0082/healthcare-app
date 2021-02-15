@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.h2 {
+  margin-top: 0;
+}
+.main {
+  height: auto;
+
+  & .adduser {
+    padding-top: 50px;
+    width: 30%;
+    margin: 0 auto 100px auto;
+  }
+  & .text-area {
+    & .h2 {
+      margin: 0;
+    }
+  }
+
+  & .form-area {
+    height: auto;
+    padding: 20px 0 30px 50px;
+    background-color: #edf6e6;
+    border-radius: 30px;
+    border: 1px solid #8ab73d;
+  }
+}
+
+span {
+  color: red;
+}
+
+.text {
+  margin: 15px 0 0 0;
+}
+
+.error {
+  margin: 0;
+  color: red;
+}

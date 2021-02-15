@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  height: auto;
+
+  & .explanetion {
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: {
+      position: center;
+      image: url("../../images/Vegetable.jpg");
+    }
+
+    &__inner {
+      height: 250px;
+      width: 700px;
+      margin: 0 auto;
+      padding-top: 50px;
+      background-color: white;
+      border-radius: 30px;
+      opacity: 0.8;
+
+      & .text {
+        width: 90%;
+        margin: 0 auto;
+        
+        & .h2 {
+          margin-top: 0;
+          font-size: 30px;
+          color: #8ab73d;
+        }
+        & p {
+          font-size: 20px;
+          font-weight: 600;
+          color: #8ab73d;
+        }
+      }
+    }
+  }
+
+  &__inner {
+    margin: 0 auto;
+    text-align: center;
+
+    & .description {
+      & .text {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin-top: 10px;
+        color: #8ab73d;
+      }
+    }
+
+    & .btn {
+      display: inline-block;
+      border-radius: 10px;
+      width: 300px;
+      margin: 20px;
+
+      & a {
+        display: inline-block;
+        width: 100%;
+        height: 45px;
+        border-radius: 10px;
+        padding-top: 20px;
+        color: white;
+        font-size: 1.2em;
+        text-decoration: none;
+      }
+
+      & .register {
+        background-color: orange;
+        box-shadow: 0px 5px #ff8c00;
+        margin-bottom: 10px;
+
+        &:hover {
+          transition: all 0.2s;
+          transform: translateY(5px);
+          box-shadow: none;
+        }
+      }
+      & .mypage {
+        background-color: #32cd32;
+        box-shadow: 0px 5px #008000;
+        &:hover {
+          transition: all 0.2s;
+          transform: translateY(5px);
+          box-shadow: none;
+        }
+      }
+    }
+
+    & .service {
+      height: 325px;
+      background-color: white;
+
+      & .image {
+        display: flex;
+        justify-content: center;
+
+        & .man-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+        & .graph-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+        & .woman-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+      }
+    }
+    & .contents {
+      height: 325px;
+      background-color: #fef7e5;
+
+      & .image {
+        display: flex;
+        justify-content: center;
+
+        & .man-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+        & .dentaku-image {
+          margin: 0 35px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+        & .woman-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+      }
+    }
+    & .registration {
+      height: 325px;
+      background-color: white;
+
+      & .image {
+        display: flex;
+        justify-content: center;
+
+        & .man-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+        & .done-image {
+          margin: 0 20px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+        & .woman-image {
+          margin: 0 10px;
+
+          & > img {
+            margin-top: 10px;
+            height: 250px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu-sp {
+  display: none;
+}

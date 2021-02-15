@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.message-area {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+
+  & .text {
+    font-size: 2em;
+    font-weight: 600;
+  }
+}

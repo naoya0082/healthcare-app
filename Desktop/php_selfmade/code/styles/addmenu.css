@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.main .h2 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.addmenu-area {
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+  padding: 20px 0 20px 0px;
+  width: 30%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.addmenu-area .form-area {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.addmenu-area .form-area .category {
+  display: inline-block;
+}
+
+.addmenu-area .form-area .add-menubtn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addmenu-area .error {
+  margin-top: 0;
+  color: red;
+}
+/*# sourceMappingURL=addmenu.css.map */

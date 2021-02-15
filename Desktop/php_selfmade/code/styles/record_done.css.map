@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;CACV;;AAED,AAAA,aAAa,CAAC;EACZ,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CAMf;;AATD,AAKE,aALW,CAKT,KAAK,CAAC;EACN,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "record_done.scss"
+    ],
+    "names": [],
+    "file": "record_done.css"
+}

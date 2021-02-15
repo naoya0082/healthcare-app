@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.main .h2 {
+  width: 30%;
+  margin: 20px auto 0 auto;
+}
+
+.main .profile-area {
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+  padding: 20px 0 20px 0px;
+  width: 30%;
+  margin: 30px auto;
+}
+
+.main .profile-area .show_profile {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .profile-area .show_profile .btn {
+  text-align: center;
+}
+
+.main .profile-area .show_profile .edit {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #32cd32;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.main .profile-area .update_profile {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .profile-area .update_profile .btn {
+  text-align: center;
+}
+
+.display {
+  display: none;
+}
+
+.update {
+  display: none;
+}
+/*# sourceMappingURL=display_profile.css.map */

@@ -1,0 +1,448 @@
+@media screen and (max-width: 959px) {
+  body {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  .main {
+    height: auto;
+  }
+  .main .explanetion {
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-position: center;
+    background-image: url("../../images/Vegetable.jpg");
+  }
+  .main .explanetion__inner {
+    height: 250px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 0.8;
+  }
+  .main .explanetion__inner .text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main .explanetion__inner .text .h2 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #8ab73d;
+  }
+  .main .explanetion__inner .text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8ab73d;
+  }
+  .main__inner {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main__inner .description .text {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #8ab73d;
+  }
+  .main__inner .btn {
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+  }
+  .main__inner .btn a {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  .main__inner .btn .register {
+    background-color: orange;
+    -webkit-box-shadow: 0px 5px #ff8c00;
+            box-shadow: 0px 5px #ff8c00;
+    margin-bottom: 10px;
+  }
+  .main__inner .btn .register:hover {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .main__inner .btn .mypage {
+    background-color: #32cd32;
+    -webkit-box-shadow: 0px 5px #008000;
+            box-shadow: 0px 5px #008000;
+  }
+  .main__inner .btn .mypage:hover {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .main__inner .service {
+    height: 325px;
+    background-color: white;
+  }
+  .main__inner .service .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__inner .service .image .man-image {
+    margin: 0 10px;
+  }
+  .main__inner .service .image .man-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .service .image .graph-image {
+    margin: 0 10px;
+  }
+  .main__inner .service .image .graph-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .service .image .woman-image {
+    margin: 0 10px;
+  }
+  .main__inner .service .image .woman-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .contents {
+    height: 325px;
+    background-color: #fef7e5;
+  }
+  .main__inner .contents .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__inner .contents .image .man-image {
+    margin: 0 10px;
+  }
+  .main__inner .contents .image .man-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .contents .image .dentaku-image {
+    margin: 0 35px;
+  }
+  .main__inner .contents .image .dentaku-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .contents .image .woman-image {
+    margin: 0 10px;
+  }
+  .main__inner .contents .image .woman-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .registration {
+    height: 325px;
+    background-color: white;
+  }
+  .main__inner .registration .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__inner .registration .image .man-image {
+    margin: 0 10px;
+  }
+  .main__inner .registration .image .man-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .registration .image .done-image {
+    margin: 0 20px;
+  }
+  .main__inner .registration .image .done-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .registration .image .woman-image {
+    margin: 0 10px;
+  }
+  .main__inner .registration .image .woman-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .menu-sp {
+    display: none;
+  }
+  #global_container {
+    position: relative;
+  }
+  #global_container #container {
+    -webkit-box-shadow: 10px 10px 10px grey;
+            box-shadow: 10px 10px 10px grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 10;
+  }
+  #global_container #container.on {
+    -webkit-transform: translateX(-200px) translateY(30px);
+            transform: translateX(-200px) translateY(30px);
+  }
+  .explanetion__inner {
+    width: 90% !important;
+    padding-top: 30px !important;
+  }
+  .explanetion__inner .text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .explanetion__inner .text .h2 {
+    margin-top: 0;
+    font-size: 27px !important;
+    color: #8ab73d;
+  }
+  .explanetion__inner .text p {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #8ab73d;
+  }
+  .menu-sp {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
+    margin: 40px 30px 0 0;
+    font-size: 1.5em;
+    display: block;
+    z-index: 0;
+  }
+  .menu-sp > a {
+    text-decoration: none;
+  }
+  .man-image,
+  .woman-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  body {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+  .main {
+    height: auto;
+  }
+  .main .explanetion {
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-position: center;
+    background-image: url("../../images/Vegetable.jpg");
+  }
+  .main .explanetion__inner {
+    height: 250px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 0.8;
+  }
+  .main .explanetion__inner .text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main .explanetion__inner .text .h2 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #8ab73d;
+  }
+  .main .explanetion__inner .text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8ab73d;
+  }
+  .main__inner {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main__inner .description .text {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #8ab73d;
+  }
+  .main__inner .btn {
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+  }
+  .main__inner .btn a {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  .main__inner .btn .register {
+    background-color: orange;
+    -webkit-box-shadow: 0px 5px #ff8c00;
+            box-shadow: 0px 5px #ff8c00;
+    margin-bottom: 10px;
+  }
+  .main__inner .btn .register:hover {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .main__inner .btn .mypage {
+    background-color: #32cd32;
+    -webkit-box-shadow: 0px 5px #008000;
+            box-shadow: 0px 5px #008000;
+  }
+  .main__inner .btn .mypage:hover {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .main__inner .service {
+    height: 325px;
+    background-color: white;
+  }
+  .main__inner .service .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__inner .service .image .man-image {
+    margin: 0 10px;
+  }
+  .main__inner .service .image .man-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .service .image .graph-image {
+    margin: 0 10px;
+  }
+  .main__inner .service .image .graph-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .service .image .woman-image {
+    margin: 0 10px;
+  }
+  .main__inner .service .image .woman-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .contents {
+    height: 325px;
+    background-color: #fef7e5;
+  }
+  .main__inner .contents .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__inner .contents .image .man-image {
+    margin: 0 10px;
+  }
+  .main__inner .contents .image .man-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .contents .image .dentaku-image {
+    margin: 0 35px;
+  }
+  .main__inner .contents .image .dentaku-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .contents .image .woman-image {
+    margin: 0 10px;
+  }
+  .main__inner .contents .image .woman-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .registration {
+    height: 325px;
+    background-color: white;
+  }
+  .main__inner .registration .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__inner .registration .image .man-image {
+    margin: 0 10px;
+  }
+  .main__inner .registration .image .man-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .registration .image .done-image {
+    margin: 0 20px;
+  }
+  .main__inner .registration .image .done-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .main__inner .registration .image .woman-image {
+    margin: 0 10px;
+  }
+  .main__inner .registration .image .woman-image > img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .menu-sp {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */

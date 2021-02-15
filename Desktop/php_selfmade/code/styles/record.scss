@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.main {
+  & .h2 {
+    text-align: center;
+  }
+  & .record-area {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #edf6e6;
+    border-radius: 30px;
+    border: 1px solid #8ab73d;
+
+    & .form-area {
+      width: 80%;
+      margin: 10px auto;
+
+      & table {
+        text-align: center;
+      }
+    }
+    & .btn {
+      text-align: center;
+    }
+  }
+}

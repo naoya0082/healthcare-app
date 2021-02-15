@@ -1,0 +1,9 @@
+// スマホ, タブレット
+@media screen and (max-width: 959px) {
+  @import "breakpoints/index/959down";
+}
+
+// PC
+@media screen and (min-width: 960px) {
+  @import "breakpoints/index/960up";
+}

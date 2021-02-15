@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.message-area {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.message-area .text {
+  font-size: 2em;
+  font-weight: 600;
+}
+/*# sourceMappingURL=record_done.css.map */

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.main .h2 {
+  text-align: center;
+}
+
+.main .check-area {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+}
+
+.main .check-area .menu {
+  font-weight: 600;
+}
+
+.main .check-area .form-area {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+}
+/*# sourceMappingURL=record_check.css.map */

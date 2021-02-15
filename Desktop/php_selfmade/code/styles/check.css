@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.check-area {
+  width: 40%;
+  margin: 0 auto 50px auto;
+  padding-bottom: 30px;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+}
+
+.check-area .text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.check-area .btn {
+  text-align: center;
+}
+
+.check-area .check {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=check.css.map */

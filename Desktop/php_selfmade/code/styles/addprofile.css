@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.main .h2 {
+  text-align: center;
+}
+
+.main .profile {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+  padding: 20px 0;
+}
+
+.main .profile .form-area {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main .profile .form-area .btn {
+  text-align: center;
+}
+/*# sourceMappingURL=addprofile.css.map */

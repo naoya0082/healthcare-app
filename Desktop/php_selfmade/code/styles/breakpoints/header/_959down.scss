@@ -1,0 +1,88 @@
+@import "960up";
+
+.header {
+  position: relative;
+  & .hamburger {
+    position: absolute;
+    display: block;
+    top: 18px;
+    right: 30px;
+    height: auto;
+    width: 50px;
+    cursor: pointer;
+
+    & ul {
+      list-style: none;
+      margin-left: 0;
+      text-align: left;
+      padding-left: 0;
+
+      & li {
+        &:nth-child(1) {
+          transition: all 1s;
+          margin-bottom: 8px;
+        }
+        &:nth-child(2) {
+          transition: all 1s;
+          margin-bottom: 8px;
+        }
+        &:nth-child(3) {
+          transition: all 1s;
+        }
+
+        & span {
+          border-radius: 2px;
+          display: block;
+          height: 6px;
+          width: 50px;
+          background-color: #008000;
+        }
+      }
+    }
+
+    &.on {
+      & ul {
+        list-style: none;
+        margin-left: 0;
+
+        & li {
+          &:nth-child(1) {
+            transform: rotateZ(45deg) translateX(10px) translateY(10px);
+          }
+          &:nth-child(2) {
+            transform: translateX(-50px);
+            opacity: 0;
+          }
+          &:nth-child(3) {
+            transform: rotateZ(-45deg) translateX(10px) translateY(-10px);
+          }
+          & span {
+            border-radius: 2px;
+            display: block;
+            height: 6px;
+            width: 50px;
+            background-color: #008000;
+          }
+        }
+      }
+    }
+  }
+  &__inner {
+    display: inline !important;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  & > a {
+    & > img {
+      margin-left: 20px !important;
+    }
+  }
+}
+
+.menu {
+  display: none;
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.main {
+  height: auto;
+}
+
+.main .login {
+  padding-top: 50px;
+  width: 30%;
+  margin: 0 auto 100px auto;
+}
+
+.main .text-area .h2 {
+  margin: 0;
+}
+
+.main .form-area {
+  height: 300px;
+  padding: 20px 0 0 50px;
+  background-color: #edf6e6;
+  border-radius: 30px;
+  border: 1px solid #8ab73d;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+.errormessage {
+  color: red;
+}
+/*# sourceMappingURL=login.css.map */
